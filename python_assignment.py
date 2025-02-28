@@ -27,3 +27,9 @@ print("Ejercicio 3:")
 list_first_element = list_var[0]
 print(f"Primer elemento de lista: {list_first_element}")
 print("-----------------")
+# Exercise 4
+## Create a new number variable that adds 10 to your original number.
+print("Ejercicio 4:")
+new_number = number_var + 10
+print(f"Nuevo numero: {new_number}")
+print("-----------------")
