@@ -62,3 +62,16 @@ uppercase_first_word = first_word.upper()
 print(uppercase_first_word)
 new_string = uppercase_first_word + string_var[mi_indice:]
 print(new_string)
+print("-----------------")
+
+# Exercise 8
+## Use string interpolation to print out a sentence that contains your number variable.
+print("Ejercicio 8:")
+print(f"mi variable tipo number es: {number_var}")
+print("-----------------")
+
+# Exercise 9
+## Print “hello world”
+print("Ejercicio 9:")
+print("version 1: hello world")
+print("version 2:\"hello world\"")
