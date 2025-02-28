@@ -10,4 +10,8 @@ print(number_var)
 print(list_var)
 print(boolean_var)
 
+# Exercise 2
+## Use an index to grab the first 3 letters in your string, store that in a variable.
 
+first_three_letters = string_var[:3]
+print(first_three_letters)
