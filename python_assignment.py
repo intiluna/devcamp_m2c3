@@ -6,13 +6,11 @@ number_var = 100
 list_var = [1, 2, "text1", 4, ["lista2_elemento1", "lista2_elemento2"]]
 boolean_var = True
 
-
 print("Ejemplos de Variables:")
 print(f"variable tipo string: {string_var}")
 print(f"variable tipo numero:{number_var}")
 print(f"variable tipo lista:{list_var}")
 print(f"variable tipo boolean:{boolean_var}")
-
 print("-----------------")
 
 # Exercise 2
@@ -21,15 +19,24 @@ print("Ejercicio 2: ")
 first_three_letters = string_var[:3]
 print(f"Primeras 3 letras de string:{first_three_letters}")
 print("-----------------")
+
 # Exercise 3
 ## Use an index to grab the first element from your list.
 print("Ejercicio 3:")
 list_first_element = list_var[0]
 print(f"Primer elemento de lista: {list_first_element}")
 print("-----------------")
+
 # Exercise 4
 ## Create a new number variable that adds 10 to your original number.
 print("Ejercicio 4:")
 new_number = number_var + 10
 print(f"Nuevo numero: {new_number}")
+print("-----------------")
+
+# Exercise 5
+## Use an index to get the last element in your list.
+print("Ejercicio 5:")
+mi_ultimo_elemento = list_var[-1]
+print(f"Ultimo elemento de lista: {mi_ultimo_elemento}")
 print("-----------------")
