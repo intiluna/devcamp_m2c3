@@ -48,3 +48,17 @@ names = 'harry,alex,susie,jared,gail,conner'
 names_list = names.split(",")
 print(f"Lista de nombres: {names_list}")
 print("-----------------")
+
+# Exercise 7
+""" Exercise 7: Get the first word from your string using indexes. Use the upper function to
+transform the letters into uppercase. Create a new string that takes the uppercase word and the
+rest of the original string.
+"""
+print("Ejercicio 7:")
+mi_indice = 11
+first_word = string_var[:mi_indice]
+print(first_word)
+uppercase_first_word = first_word.upper()
+print(uppercase_first_word)
+new_string = uppercase_first_word + string_var[mi_indice:]
+print(new_string)
