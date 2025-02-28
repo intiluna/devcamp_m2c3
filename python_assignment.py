@@ -40,3 +40,11 @@ print("Ejercicio 5:")
 mi_ultimo_elemento = list_var[-1]
 print(f"Ultimo elemento de lista: {mi_ultimo_elemento}")
 print("-----------------")
+
+# Exercise 6
+## Use split to transform the following string into a list.
+print("Ejercicio 6:")
+names = 'harry,alex,susie,jared,gail,conner'
+names_list = names.split(",")
+print(f"Lista de nombres: {names_list}")
+print("-----------------")
