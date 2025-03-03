@@ -75,3 +75,15 @@ print("-----------------")
 print("Ejercicio 9:")
 print("version 1: hello world")
 print("version 2:\"hello world\"")
+
+
+# Exercise 10
+"""
+crees una cadena que contenga la palabra "Hola". Usando la palabra clave en el método de búsqueda o el índice, busque 
+y seleccione "Hola" en su cadena. Y usando la función de reemplazo, reemplace "Hola" en su cadena con "adiós".
+"""
+
+frase = "Hola primavera"
+nueva_frase = frase.replace("Hola", "Adios")
+print(frase)
+print(nueva_frase)
